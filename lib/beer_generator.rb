@@ -11,8 +11,8 @@ module BeerGenerator
 	  	ipa: ["Sweetwater", "Red Hook", "Fat Tire"]
 	  }
 
-	  def self.serve_beer(beer_type, number=1, birthday)
-	  	if birthday < (Date.today - 7665)
+	  def self.serve_beer(beer_type, birthday, number=1)
+	  	if birthday <= (Date.today - 7665)
 		  	beers = BEERS[beer_type.to_sym]
 		  	if beers
 		  		Array.new(number, beers.sample)
