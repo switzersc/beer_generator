@@ -2,6 +2,10 @@
 
 Use this sweet gem to generate all your beer needs.
 
+## About
+
+Built for TIY RoR class to demonstrate making a simple gem as well as in class group practice with TDD.
+
 ## Installation
 
 Add this line to your application's Gemfile:
