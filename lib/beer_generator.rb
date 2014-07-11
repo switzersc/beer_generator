@@ -1,7 +1,6 @@
 require "beer_generator/version"
 
 module BeerGenerator
-  # Your code goes here...
 
 	class Beertender
 	  
